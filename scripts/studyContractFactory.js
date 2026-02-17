@@ -228,3 +228,65 @@ const main = async () => {
     console.log(`Contract Balance: ${ethers.formatEther(contractBalance)} ETH`);
 }
 main()
+
+// Account1 Address: 0x6b8C612F683D63BD358Cfcb72643a6959d917594
+// 合约地址: 0xeF22976E24B7de69C9A979a7944dc72CF14BE089
+// 部署合约的交易详情: [object Object]
+// Account1 Balance: 1.990740165932689624 ETH
+// Contract Balance: 0.0 ETH
+// Contract Balance for Account1: 0.0 ETH
+// Donating 0.001 ETH to the contract from Account1...
+// Donation transaction receipt:
+//  ContractTransactionResponse {
+//   provider: JsonRpcProvider {},
+//   blockNumber: null,
+//   blockHash: null,
+//   index: undefined,
+//   hash: '0x5b28d5049a83b9a27538cf2ff0d90ac185d713f1b7a4e812fb9c15665a63518c',
+//   type: 2,
+//   to: '0xeF22976E24B7de69C9A979a7944dc72CF14BE089',
+//   from: '0x6b8C612F683D63BD358Cfcb72643a6959d917594',
+//   nonce: 24,
+//   gasLimit: 45617n,
+//   gasPrice: undefined,
+//   maxPriorityFeePerGas: 1000000n,
+//   maxFeePerGas: 6585598420n,
+//   maxFeePerBlobGas: null,
+//   data: '0xed88c68e',
+//   value: 1000000000000000n,
+//   chainId: 11155111n,
+//   signature: Signature { r: 0x1deb5cd9401cc69712ecc022521d13718b97582d84b739455399f6bc552844ee, s: 0x249fe708e9069b1283b0956b7fee3a683aa09875f780cb941065b4f70debe0f1, v: 28 },
+//   accessList: [],
+//   blobVersionedHashes: null,
+//   authorizationList: null
+// }
+// Account1 Balance: 1.989589508662993536 ETH
+// Contract Balance: 0.001 ETH
+// Contract Balance for Account1: 0.001 ETH
+// Withdrawing donated ETH from the contract to Account1...
+// Withdraw transaction receipt:
+//  ContractTransactionResponse {
+//   provider: JsonRpcProvider {},
+//   blockNumber: null,
+//   blockHash: null,
+//   index: undefined,
+//   hash: '0x99a5b3d061dcb0b83ffb13f2bad774905712509d7aaf0aaa6912400bc377859c',
+//   type: 2,
+//   to: '0xeF22976E24B7de69C9A979a7944dc72CF14BE089',
+//   from: '0x6b8C612F683D63BD358Cfcb72643a6959d917594',
+//   nonce: 25,
+//   gasLimit: 32843n,
+//   gasPrice: undefined,
+//   maxPriorityFeePerGas: 1000000n,
+//   maxFeePerGas: 6659798448n,
+//   maxFeePerBlobGas: null,
+//   data: '0x3ccfd60b',
+//   value: 0n,
+//   chainId: 11155111n,
+//   signature: Signature { r: 0x4680ba3e62029d00a51ab18c661b60a1e6076458a5b4924642c82d36ce0ce1c2, s: 0x44691699637d5d114d603fc75c898794331121825a634107b67c808ce0aa7d7a, v: 28 },
+//   accessList: [],
+//   blobVersionedHashes: null,
+//   authorizationList: null
+// }
+// Account1 Balance: 1.990458664388701366 ETH
+// Contract Balance: 0.0 ETH
