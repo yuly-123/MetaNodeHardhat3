@@ -23,7 +23,7 @@ const main = async () => {
     const beggingContract = new ethers.Contract(addressBeggingContract, abi, account1);
     // 也可以声明一个只读合约，再用connect(account1)函数转换成可写合约。
     // const beggingContract = new ethers.Contract(addressBeggingContract, abi, providerSepoliaL);
-    // beggingContract.connect(account1)
+    // beggingContract.connect(account1);
 
     // 第 1 次查账
 
