@@ -1,3 +1,4 @@
 {
-  "CounterModule#Counter": "0x461dB65A05f4C260974316cEA480cB39fd13B6d0"
+  "CounterModule#Counter": "0x461dB65A05f4C260974316cEA480cB39fd13B6d0",
+  "CrowdfundingModule#CrowdfundingFactory": "0x99f88850cEc7e2842e40eCFF2739B6A77c941E0D"
 }
